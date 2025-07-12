@@ -1,23 +1,43 @@
-# ZTrace11-Welcome-Future
-ZTrace 11 is Continuation of the zerotrace.
+# MiraC2 - Next-Generation Client Management System
 
-![image](https://github.com/user-attachments/assets/7bc8627a-4c25-4cc6-ad30-03b725c14fa2)
-
-
-# If you suspect any bugs / glitches don't forget to open up issues, so we can look up and fix them.
-
-Contact TG : https://t.me/ZeroTraceDevOfficial
+**🚀 Modern Rust + Python Architecture | 🎨 Cyberpunk Theme | 🌍 Cross-Platform**
 
 <p align="center">
-  <em>ZTrace Stealer 11</em>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version 1.0.0">
-  <img src="https://img.shields.io/badge/platform-Windows-brightgreen.svg" alt="Platform Windows">
-  <img src="https://img.shields.io/badge/.NET-4.8+-purple.svg" alt=".NET 4.8+">
+  <img src="https://img.shields.io/badge/version-0.1.0-blue.svg" alt="Version 0.1.0">
+  <img src="https://img.shields.io/badge/platform-Cross--Platform-brightgreen.svg" alt="Cross-Platform">
+  <img src="https://img.shields.io/badge/Rust-1.88+-orange.svg" alt="Rust 1.88+">
+  <img src="https://img.shields.io/badge/Python-3.8+-yellow.svg" alt="Python 3.8+">
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License MIT">
 </p>
+
+## 🔄 Architecture Conversion Complete
+
+MiraC2 represents a **complete modernization** of ZeroTrace, converting from C# Windows Forms to a cutting-edge **Rust backend + Python GUI** architecture. This transformation brings memory safety, cross-platform compatibility, and enhanced performance.
+
+## 🚀 Quick Start
+
+### Windows Users (Important!)
+If you encounter build errors on Windows, please see **[WINDOWS_SETUP.md](WINDOWS_SETUP.md)** for troubleshooting the Rust toolchain.
+
+### Setup & Run
+```bash
+# 1. Setup (automated)
+chmod +x setup.sh && ./setup.sh
+
+# 2. Start Rust server
+cargo run --bin mira-server
+
+# 3. Start Python GUI (separate terminal)
+cd python-gui && python main.py
+```
+
+## ⚠️ Current Status: Development Phase
+
+- ✅ **Rust Backend**: Core architecture complete, compiles successfully
+- ✅ **Python GUI**: Cyberpunk-themed interface with full layout
+- ✅ **Build System**: Creates placeholder executables with configuration
+- 🔄 **Client Builder**: Currently generates placeholder files (not functional binaries)
+- 🔄 **Protocol**: TCP communication framework ready, needs full implementation
 
 ## Overview
 
