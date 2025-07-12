@@ -1,0 +1,30 @@
+[package]
+name = "mira-server"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "mira-server"
+path = "src/main.rs"
+
+[dependencies]
+tokio.workspace = true
+tokio-util.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+bincode.workspace = true
+anyhow.workspace = true
+thiserror.workspace = true
+uuid.workspace = true
+chrono.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+zip.workspace = true
+walkdir.workspace = true
+config.workspace = true
+
+mira-core = { path = "../mira-core" }
+mira-utils = { path = "../mira-utils" }
+mira-crypto = { path = "../mira-crypto" }

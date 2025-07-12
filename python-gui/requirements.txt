@@ -1,0 +1,39 @@
+# MiraC2 Python GUI Requirements
+# Install with: pip install -r requirements.txt
+
+# GUI Framework (tkinter is built-in with Python)
+# No additional GUI dependencies needed for tkinter
+
+# For future enhancements, these packages may be useful:
+# PyQt6>=6.4.0              # Alternative GUI framework
+# PySide6>=6.4.0             # Alternative GUI framework  
+# customtkinter>=5.2.0       # Modern tkinter themes
+# ttkthemes>=3.2.0           # Additional tkinter themes
+
+# Networking and communication
+requests>=2.31.0             # HTTP requests
+websockets>=11.0.0           # WebSocket support for real-time communication
+asyncio-mqtt>=0.16.0         # MQTT client for message passing
+
+# Data handling
+numpy>=1.24.0                # Numerical operations
+pandas>=2.0.0                # Data analysis and manipulation
+
+# Cryptography (if needed for additional encryption)
+cryptography>=41.0.0         # Cryptographic operations
+pycryptodome>=3.18.0         # Additional crypto functions
+
+# File handling
+zipfile-deflate64>=0.2.0     # Enhanced ZIP support
+
+# Image processing (for icons, screenshots)
+Pillow>=10.0.0               # Image processing
+
+# Configuration and logging
+pyyaml>=6.0                  # YAML configuration files
+colorlog>=6.7.0              # Colored logging output
+
+# Development and debugging
+pytest>=7.4.0                # Testing framework
+black>=23.7.0                # Code formatting
+flake8>=6.0.0                # Code linting
